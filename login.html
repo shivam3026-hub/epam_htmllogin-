@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+  <head>
+  </head>
+
+  <body>
+    <div class="container-fluid outer-align">
+      <div class="custom-width">
+         
+        <div class="container-fluid bg-info p-3">
+          <div class="d-flex justify-content-between">
+            <div class="d-flex justify-content-center">
+              <img
+                src="https://image.flaticon.com/icons/svg/1157/1157034.svg"
+                class="img-fluid cap-icon"
+              />
+            </div>
+            <div class="font-weight-bold text-light sign-in-text">
+              Sign in
+            </div>
+            <div class="d-flex justify-content-center">
+              <img
+                src="https://image.flaticon.com/icons/svg/545/545777.svg" class="img-fluid cap-icon"
+              />
+            </div>
+          </div>
+        </div>
+<form  name = "myForm" onsubmit = "return(validate());">
+        <div class="container mt-5">
+             
+          <div class="input-group">
+            <input
+                   name="mail"
+              type="text"
+              placeholder="mail@example.com"
+              class="form-control"
+            />
+            <div class="input-group-append">
+              <span class="input-group-text material-icons">email</span>
+            </div>
+          </div>
+
+          <div class="input-group mt-3">
+            <input
+                   name="password"
+              type="password"
+              placeholder="password"
+              class="form-control"
+            />
+            <div class="input-group-append">
+              <span class="input-group-text material-icons"
+                >enhanced_encryption</span
+              >
+            </div>
+          </div>
+
+          <input type="submit" value="SIGN IN"
+            class="btn btn-info sign-in-button mt-5 font-weight-bold"
+          />
+            
+
+          <div class="d-flex justify-content-between mt-2">
+            <div class="text-muted other-options font-weight-bold">
+              Forgot your password?
+            </div>
+            <div class="text-muted other-options font-weight-bold">
+              Register
+            </div>
+          </div>
+
+          <div class="row mt-4 mb-4">
+            <div class="col-sm-5"><hr /></div>
+            <div class="col-sm-2 text-center text-muted font-weight-bolder">
+              OR
+            </div>
+            <div class="col-sm-5"><hr /></div>
+          </div>
+
+          <button type="button" class="btn fb">
+            <img
+              src="https://image.flaticon.com/icons/svg/2111/2111398.svg"
+              class="img-fluid button-icon"
+            />
+          </button>
+
+          <button type="button" class="btn google mt-3">
+            <img
+              src="https://image.flaticon.com/icons/svg/145/145804.svg"
+              class="img-fluid button-icon"
+            />
+          </button>
+
+          <button type="button" class="btn epam font-weight-bold mt-5">
+            &ltimes; EPAM LOGIN &rtimes;
+          </button>
+         
+           
+      </div>
+     </form>
+         
+        </div>
+    </div>
+  </body>
+</html>
